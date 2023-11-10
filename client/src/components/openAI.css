@@ -1,0 +1,150 @@
+.custom-box {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.125);
+  margin-bottom: 10px;
+  text-align: start;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.custom-color {
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 28px 0 22px;
+}
+
+.custom-select {
+  margin-top: 90px;
+}
+.custom-input {
+  width: 766px;
+  /* padding: 10px 48px 10px 10px; */
+  height: 56px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.125);
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  text-align: start;
+  outline: none;
+  margin-left: 200px;
+  padding-top: 13px;
+}
+.postTextarea {
+  width: 766px;
+  /* padding: 10px 48px 10px 10px; */
+  height: 56px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.125);
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  text-align: start;
+  outline: none;
+  margin-left: 200px;
+  overflow-y: hidden;
+  padding-top: 13px;
+}
+.send-button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 59px;
+  right: 164px;
+  background-color: #19c37d;
+  border: none;
+  border-radius: 50%;
+}
+.send-button.textarea {
+  width: auto;
+  height: 40px;
+  position: absolute;
+  bottom: 55px;
+  right: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+.send-button-new {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 56px;
+  right: 70px;
+  border: none;
+  background-color: #19c37d;
+  border-radius: 50%;
+}
+.custom-btn {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 90px;
+  height: "40px";
+  margin-top: 55px;
+  margin-left: -50px;
+  position: absolute;
+}
+
+.selected-box {
+  background-color: blue;
+  color: white; /* You can adjust the text color to make it more visible */
+}
+
+.search-box {
+  position: relative;
+}
+
+.chat-log {
+  text-align: left;
+}
+.chat-message {
+}
+.chat-message-center {
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+}
+
+.chat-message.chatgpt {
+  background-color: #f7f7f8;
+}
+.chat-avatar {
+  background-color: #19c27d;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.chat-output-avatar {
+  background-color: #19c27d;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+.message {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textarea-container {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: -15px;
+}
+.dropdown-gutter {
+  width: 273px;
+}
+.mandatory {
+  color: blue;
+}
+.custom-nature-message {
+  font-size: 12px;
+  font-weight: 500;
+}
